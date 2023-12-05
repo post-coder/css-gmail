@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+}
+/* regola di reset */
+
+
+/* 
+
+width
+height
+
+color
+background-color
+background-image
+
+font-size
+font-family
+
+margin
+
+border
+
+----
+
+display
+
+padding
+
+border+
+border-radius
+
+line-height
+vertical-align
+
+
+*/
+
+
+.quadrato {
+    display: inline-block;
+
+    /* background-color: red; */
+
+    width: 200px;
+    height: 200px;
+
+    border: 10px black solid;
+
+    /* 
+    
+    una proprietà: su giù sinistra e destra insieme
+    due proprietà: su e giù insieme, sinistra e destra insieme
+    tre proprietà: su, sinistra e destra insieme, giù
+    quattro proprietà: su, destra, giù, sinistra
+
+    */
+
+    padding: 10px 5px 20px 4px;
+
+    /* border-radius: 10px; */
+}
+
+#link {
+    display: block;
+
+    width: 200px;
+    height: 100px;
+
+    background-color: orange;
+}

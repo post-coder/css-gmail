@@ -1,0 +1,44 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+
+
+}
+/* reset */
+
+
+main {
+
+    /* due proprietà: primo valore verticale, secondo orizzontale */
+    padding: 10px 50px;
+
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMjUtYWtlNzAwNV8yLmpwZw.jpg');
+    background-size: cover;
+}
+
+
+/* header */
+
+header {
+    
+    padding-bottom: 20px;
+
+    border-bottom: white 2px solid;
+
+}
+
+#logo {
+    height: 100px;
+
+    /* proprietà che allinea un'immagine (di solito) alla linea del testo adiacente */
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+
+    color: white;
+}
+/* fine header */
